@@ -12,6 +12,9 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Style the header */
@@ -27,9 +30,12 @@ h1, h2 {
     color: #4CAF50; /* Green color */
 }
 
-/* Style the sections */
-section {
+/* Create a container for content */
+.container {
+    flex-grow: 1;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Style links */
