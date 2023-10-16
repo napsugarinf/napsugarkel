@@ -27,7 +27,7 @@ header {
 
 /* Style headings */
 h1, h2 {
-    color: #4CAF50; /* Green color */
+    color:#333; /* Green color */
 }
 
 /* Create a container for content */
@@ -40,7 +40,7 @@ h1, h2 {
 
 /* Style links */
 a {
-    color: #4CAF50; /* Green color */
+    color: blue; /* Green color */
     text-decoration: none;
 }
 
@@ -82,3 +82,17 @@ li {
 #languages ul {
     list-style-type: none;
 }
+
+/* Style the profile image */
+.rounded-image {
+    width: 15%; /* Set the desired width */
+    height: 7%; /* Set the desired height */
+    border-radius: 50%; /* Makes the image round (50% of width/height) */
+}
+
+
+
+
+
+
+
