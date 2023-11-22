@@ -6,9 +6,9 @@ body, h1, h2, p, ul, li {
 
 /* Set a green background color for the body */
 body {
-    background-color: #4CAF50; /* Green color */
+    background-color: #a1e2a3; /* Green color */
     color: white;
-    font-family: Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -37,10 +37,16 @@ h1, h2 {
     display: flex;
     flex-direction: column;
 }
+#contactDIV{
+    background-color: rgb(238, 215, 87);
+    color: white;
+   
+ 
+}
 
 /* Style links */
 a {
-    color: blue; /* Green color */
+    color: rgb(65, 65, 189); /* Green color */
     text-decoration: none;
 }
 
@@ -70,25 +76,29 @@ li {
 /* Style contact info */
 #contact ul {
     list-style-type: none;
+    margin: 10px;
+}
+#internships ul, #employment ul, #education ul, #courses ul, #languages ul , #docs ul{
+    list-style-type: disc;
+    margin: 10px;
 }
 
 /* Style skills */
 #skills ul {
     list-style-type: disc;
     columns: 2;
+    margin: 10px;
 }
-
-/* Style languages */
-#languages ul {
-    list-style-type: none;
-    list-style-type: disc;
+#githubP{
+    margin: 10px;
 }
 
 /* Style the profile image */
 .rounded-image {
-    width: 15%; /* Set the desired width */
-    height: 7%; /* Set the desired height */
+    width: 7%; /* Set the desired width */
+    height: 10%; /* Set the desired height */
     border-radius: 50%; /* Makes the image round (50% of width/height) */
+    margin: 10px;
 }
 
 
