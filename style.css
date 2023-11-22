@@ -81,6 +81,7 @@ li {
 /* Style languages */
 #languages ul {
     list-style-type: none;
+    list-style-type: disc;
 }
 
 /* Style the profile image */
